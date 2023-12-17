@@ -1,4 +1,5 @@
 import turtle
+import tkinter
 
 wn = turtle.Screen()
 wn.bgcolor("darkred")
