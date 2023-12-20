@@ -12,12 +12,16 @@ print 1-100...
 """
 
 count_FizzBuzzGuzz = 0
+#third_FizzBuzzGuzz = 0
 
-for i in range(1, 1010):
+for i in range(1, 500):
     
     if i % 3 == 0 and i % 5 == 0 and i % 7 == 0:
         print("FizzBuzzGuzz")
         count_FizzBuzzGuzz += 1
+        if count_FizzBuzzGuzz == 3:
+            break
+        
     elif i % 3 == 0 and i % 5 == 0:
         print("FizzBuzz")
     elif i % 3 == 0 and i % 7 == 0:
@@ -34,4 +38,7 @@ for i in range(1, 1010):
         print(i)
         
 count_FizzBuzzGuzz
+print()
 print("FizzBuzzGuzz was printed out: ", count_FizzBuzzGuzz, " times.")
+print("The Third FizzBuzzGuzz was number:", i)
+print()
