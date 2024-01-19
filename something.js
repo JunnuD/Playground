@@ -30,3 +30,10 @@ typeof aVariable
 
 typeof aConstant
 //number
+
+
+let theSumOfDistances = 0;
+const distances = [12, 234, 64, 246, 987 ];
+for (let i = 0; i < distances.length; i++) {theSumOfDistances += distances[i]; }
+
+// Laskee listan arvot yhteen.

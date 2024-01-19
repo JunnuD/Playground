@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Lotto {
+public class lotto {
 
     public static void main(String[] args) {
         int[] lottonumerot = arvolottonumerot();
