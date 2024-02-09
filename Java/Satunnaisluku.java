@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class KT2_7 {
+public class Satunnaisluku {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
