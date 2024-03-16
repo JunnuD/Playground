@@ -6,8 +6,8 @@ import pygame.time
 # Sounds!
 
 pygame.init()
-like_sfx = pygame.mixer.Sound("Playground/Fun Games/like.wav")
-dislike_sfx = pygame.mixer.Sound("Playground/Fun Games/dislike.wav")
+like_sfx = pygame.mixer.Sound("like.wav")
+dislike_sfx = pygame.mixer.Sound("dislike.wav")
 
 def GameOver(user,computer):
     if user==3 or computer==3: 
